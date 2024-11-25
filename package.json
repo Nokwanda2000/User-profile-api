@@ -1,7 +1,28 @@
 {
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
     "express": "^4.21.1",
+    "gitignore": "^0.7.0",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.7"
-  }
+  },
+  "name": "user-profile-api",
+  "version": "1.0.0",
+  "description": "CreatingAPI for managing user profiles. Users can create, view, update, and delete their profiles, which will be stored in a JSON file.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "nokwanda": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "user",
+    "backend"
+  ],
+  "author": "Nokwanda Chonco",
+  "license": "Attribution CC BY"
 }
